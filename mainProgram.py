@@ -3,8 +3,8 @@ from PyQt5 import uic
 from PyQt5.QtWidgets import QApplication, QMainWindow
 myUI_application = "tutoriel.ui"
 
-from PySide5.QtWidgets import QApplication, QMainWindow, QMessageBox
-from PySide5.QtUiTools import QUiLoader
+from PySide6.QtWidgets import QApplication, QMainWindow, QMessageBox
+from PySide6.QtUiTools import QUiLoader
 myUI_application = "tutoriel.ui"
 
 class MainWindow(QMainWindow):
